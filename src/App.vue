@@ -1,54 +1,42 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <ul>
-    <li><RouterLink to="/">Home</RouterLink></li>
-    <li><RouterLink to="/about">About</RouterLink></li>
-  </ul>
-
+  <div class="col-md-12">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 40px;">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <RouterLink to="/" class="nav-link">Home</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/calendar" class="nav-link">Calendar</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/chat" class="nav-link">Chat</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/drive" class="nav-link">Drive</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/mail" class="nav-link">Mail</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/meeting_room" class="nav-link">Meeting room</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/settings" class="nav-link">Settings</RouterLink>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   <RouterView />
 </template>
 
 <style scoped>
-#app {
-  padding: 0;
-}
-ul {
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li a {
-  color: #666;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+.active {
+  background-color: lightgray;
 }
 </style>
