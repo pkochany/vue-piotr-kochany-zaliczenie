@@ -28,6 +28,9 @@ import { RouterLink, RouterView } from 'vue-router'
           <li class="nav-item">
             <RouterLink to="/metody" class="nav-link">Metody</RouterLink>
           </li>
+          <li class="nav-item">
+            <RouterLink to="/watchery" class="nav-link">Watchery</RouterLink>
+          </li>
         </ul>
       </div>
     </nav>

@@ -38,6 +38,11 @@ const router = createRouter({
       path: '/metody',
       name: 'metody',
       component: () => import('../views/MetodyView.vue')
+    },
+    {
+      path: '/watchery',
+      name: 'watchery',
+      component: () => import('../views/WatcheryView.vue')
     }
   ],
   linkActiveClass: "active",
