@@ -35,9 +35,9 @@ const router = createRouter({
       component: () => import('../views/PropsyView.vue')
     },
     {
-      path: '/settings',
-      name: 'settings',
-      component: () => import('../views/SettingsView.vue')
+      path: '/metody',
+      name: 'metody',
+      component: () => import('../views/MetodyView.vue')
     }
   ],
   linkActiveClass: "active",

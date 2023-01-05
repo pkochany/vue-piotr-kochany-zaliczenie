@@ -26,7 +26,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink to="/propsy" class="nav-link">Propsy</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/settings" class="nav-link">Settings</RouterLink>
+            <RouterLink to="/metody" class="nav-link">Metody</RouterLink>
           </li>
         </ul>
       </div>

@@ -22,7 +22,7 @@
                         <li class="done">Dyrektywa v-if</li>
                         <li class="done">Eventy (min. @click)</li>
                         <li class="done">Propsy</li>
-                        <li>Metody</li>
+                        <li class="done">Metody</li>
                         <li>Watchery</li>
                         <li>Projekt umieścić na repozytorium jako link</li>
                         <li class="done">strona powinna zawierać min. 7 podstron (done)</li>
