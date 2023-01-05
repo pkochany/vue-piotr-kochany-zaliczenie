@@ -11,6 +11,7 @@
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.2",
     "popper.js": "^1.16.1",
+    "sass": "^1.57.1",
     "vue": "^3.2.45",
     "vue-popperjs": "^2.3.0",
     "vue-router": "^4.1.6"

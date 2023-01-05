@@ -11,13 +11,13 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink to="/" class="nav-link">Home</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/calendar" class="nav-link">Calendar</RouterLink>
+            <RouterLink to="/komponenty" class="nav-link">Komponenty</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/chat" class="nav-link">Chat</RouterLink>
+            <RouterLink to="/sloty" class="nav-link">Sloty</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/drive" class="nav-link">Drive</RouterLink>
+            <RouterLink to="/sass" class="nav-link">SASS</RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink to="/mail" class="nav-link">Mail</RouterLink>

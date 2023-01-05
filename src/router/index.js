@@ -10,19 +10,19 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/calendar',
-      name: 'calendar',
-      component: () => import('../views/CalendarView.vue')
+      path: '/komponenty',
+      name: 'komponenty',
+      component: () => import('../views/KomponentyView.vue')
     },
     {
-      path: '/chat',
-      name: 'chat',
-      component: () => import('../views/ChatView.vue')
+      path: '/sloty',
+      name: 'sloty',
+      component: () => import('../views/SlotyView.vue')
     },
     {
-      path: '/drive',
-      name: 'drive',
-      component: () => import('../views/DriveView.vue')
+      path: '/sass',
+      name: 'sass',
+      component: () => import('../views/SASSView.vue')
     },
     {
       path: '/mail',
