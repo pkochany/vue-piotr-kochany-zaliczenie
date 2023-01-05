@@ -9,5 +9,5 @@ export default {
 </script>
 
 <template>
-    <img src="/kwadrat.jpg"/>
+  <i class="bi bi-square-fill"></i>
 </template>

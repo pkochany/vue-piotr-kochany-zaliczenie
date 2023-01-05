@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import Popper from 'vue-popperjs';
 import 'vue-popperjs/dist/vue-popper.css';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 export default {
     components: {

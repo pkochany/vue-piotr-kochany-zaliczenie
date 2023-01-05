@@ -25,14 +25,14 @@ const router = createRouter({
       component: () => import('../views/SASSView.vue')
     },
     {
-      path: '/mail',
-      name: 'mail',
-      component: () => import('../views/MailView.vue')
+      path: '/vif',
+      name: 'vif',
+      component: () => import('../views/VifView.vue')
     },
     {
-      path: '/meeting_room',
-      name: 'meeting_room',
-      component: () => import('../views/MeetingRoomView.vue')
+      path: '/propsy',
+      name: 'propsy',
+      component: () => import('../views/PropsyView.vue')
     },
     {
       path: '/settings',

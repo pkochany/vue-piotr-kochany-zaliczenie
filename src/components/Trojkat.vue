@@ -9,5 +9,5 @@ export default {
 </script>
 
 <template>
-    <img src="/trojkat.jpg" alt="">
+  <i class="bi bi-triangle-fill"></i>
 </template>

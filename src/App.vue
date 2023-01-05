@@ -20,10 +20,10 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink to="/sass" class="nav-link">SASS</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/mail" class="nav-link">Mail</RouterLink>
+            <RouterLink to="/vif" class="nav-link">v-if + event</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/meeting_room" class="nav-link">Meeting room</RouterLink>
+            <RouterLink to="/propsy" class="nav-link">Propsy</RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink to="/settings" class="nav-link">Settings</RouterLink>

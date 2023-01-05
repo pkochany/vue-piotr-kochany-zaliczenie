@@ -19,9 +19,9 @@
                         <li class="done">style z atrybutem scope</li>
                         <li class="done">Sloty</li>
                         <li class="done">SASS</li>
-                        <li>Dyrektywa v-if</li>
-                        <li>Eventy (min. @click)</li>
-                        <li>Propsy</li>
+                        <li class="done">Dyrektywa v-if</li>
+                        <li class="done">Eventy (min. @click)</li>
+                        <li class="done">Propsy</li>
                         <li>Metody</li>
                         <li>Watchery</li>
                         <li>Projekt umieścić na repozytorium jako link</li>
